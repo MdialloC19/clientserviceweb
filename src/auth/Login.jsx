@@ -47,7 +47,7 @@ export default function Login() {
         xmlDoc.getElementsByTagName("success")[0].childNodes[0].nodeValue;
 
       if (success === "true") {
-        // Suppose the response contains user data if the login is successful
+        navigate("/admin");
       } else {
         throw new Error("username ou mot de passe incorrect");
       }

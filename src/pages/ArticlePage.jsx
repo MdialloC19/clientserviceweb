@@ -21,7 +21,7 @@ const ArticlePage = ({ deleteArticle }) => {
 
     toast.success("article deleted successfully");
 
-    navigate("/");
+    navigate("/admin");
   };
   useEffect(() => {
     onDeleteClick(id);

@@ -20,7 +20,7 @@ const Article = ({ article, isLogin = true }) => {
         <div className="mb-5">{description}</div>
         <button
           onClick={() => setShowFullContenu(!showFullContenu)}
-          className="text-indigo-500 mb-5 hover:text-indigo-600 p-2 rounded-md bg-slate-400 text-center "
+          className="text-indigo-500 mb-5 p-2 rounded-md  text-center "
         >
           {showFullContenu ? "Voir moins" : "Voir Plus"}
         </button>

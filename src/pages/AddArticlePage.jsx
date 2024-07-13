@@ -90,7 +90,7 @@ const AddArticlePage = ({ addArticle }) => {
                 id="titre"
                 name="titre"
                 className="border rounded w-full py-2 px-3 mb-2"
-                placeholder="eg. Beautiful Apartment In Miami"
+                placeholder="titre de l'article"
                 required
                 value={titre}
                 onChange={(e) => setTitre(e.target.value)}
@@ -108,7 +108,7 @@ const AddArticlePage = ({ addArticle }) => {
                 name="contenu"
                 className="border rounded w-full py-2 px-3"
                 rows="4"
-                placeholder="Add any job duties, expectations, requirements, etc"
+                placeholder="Ajouter un article"
                 value={contenu}
                 onChange={(e) => setContenu(e.target.value)}
               ></textarea>
